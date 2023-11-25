@@ -4,7 +4,7 @@ const PrevProjects = () => {
     return (
         <>
             <section id="projects" className=" min-w-[530px]">
-                <h1 className="p-3 text-3xl font-bold mt-4 text-center">Previous Projects</h1>
+                <h1 className=" text-[#ff5722] p-3 text-3xl font-bold mt-4 text-center">Previous Projects</h1>
                 <Projects />
 
             </section>
