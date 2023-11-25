@@ -5,8 +5,8 @@ import Clients from './Cards/Clients'
 const PrevClients = () => {
     return (
         <>
-            <section id="clients" className="h-60 bg-[#ffff0050]">
-                <h1 className="text-3xl font-bold mt-4 text-center">Our Clients</h1>
+            <section id="clients" className="  min-w-[530px]">
+                <h1 className=" p-2 text-3xl font-bold mt-4 text-center">Our Clients</h1>
                 <Clients />
 
             </section>

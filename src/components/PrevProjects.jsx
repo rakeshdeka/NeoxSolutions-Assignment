@@ -3,8 +3,8 @@ import Projects from './Cards/Projects'
 const PrevProjects = () => {
     return (
         <>
-            <section id="projects" className="h-60 bg-[#ff00003d]">
-                <h1 className="text-3xl font-bold mt-4 text-center">Previous Projects</h1>
+            <section id="projects" className=" min-w-[530px]">
+                <h1 className="p-3 text-3xl font-bold mt-4 text-center">Previous Projects</h1>
                 <Projects />
 
             </section>
