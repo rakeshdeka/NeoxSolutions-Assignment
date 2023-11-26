@@ -1,27 +1,32 @@
 import React from 'react'
+import google from "../../../public/Google-Logo.wine.svg"
+import github from "../../../public/GitHub-Wordmark-Logo.wine.svg"
+import intuit from "../../../public/Intuit-Logo.wine.svg"
+import uber from "../../../public/Uber-Logo.wine.svg"
+import zoho from "../../../public/Zoho_Corporation-Logo.wine.svg"
 
 const Clients = () => {
 
     const allClients = [
         {
             name: "client1",
-            logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png"
+            logo: google,
         },
         {
             name: "client2",
-            logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/ZOHO.svg/2560px-ZOHO.svg.png"
+            logo: github,
         },
         {
             name: "client3",
-            logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Uber_logo_2018.svg/2560px-Uber_logo_2018.svg.png"
+            logo: intuit,
         },
         {
             name: "client5",
-            logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Intuit_Logo.svg/2560px-Intuit_Logo.svg.png"
+            logo: uber,
         },
         {
             name: "client5",
-            logo: "https://upload.wikimedia.org/wikipedia/commons/9/9d/CRED-LOGO2.png"
+            logo: zoho,
         },
 
     ]
@@ -31,11 +36,11 @@ const Clients = () => {
     return (
 
         <>
-            <div className=' flex flex-wrap flex-col sm:flex-row justify-center items-center gap-3 p-4'>
+            <div className=' flex flex-wrap flex-col sm:flex-row justify-center items-center p-2'>
                 {allClients.map((client, index) => (
 
-                    <div className='  h-18 w-[22rem] sm:h-22 sm:w-[25rem] pr-6 pl-6 sm:pr-0 sm:m-0' key={index}>
-                        <img src={client.logo} alt="logo" className='h-full w-full' />
+                    <div className='   h-18 w-[10rem] sm:h-18 sm:w-[16rem] pr-6 pl-6 sm:pr-0 sm:m-0 ' key={index}>
+                        <img src={client.logo} alt="logo" className=' h-full w-full' />
                     </div>
 
 
