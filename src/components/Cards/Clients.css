@@ -1,0 +1,28 @@
+/* Clients.css */
+@keyframes logoAnimation {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.logo-container {
+    display: flex;
+    overflow: hidden;
+    /* Hide logos that go beyond the container */
+}
+
+.logo-item {
+    width: 100px;
+    /* Adjust the width based on your preference */
+    margin-right: 20px;
+    /* Adjust the margin between logos */
+}
+
+.logo-item:last-child {
+    margin-right: 0;
+    /* Remove margin from the last logo */
+}
