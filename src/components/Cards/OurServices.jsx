@@ -25,12 +25,12 @@ const OurServices = () => {
         <>
             <div className=' flex flex-wrap justify-center gap-3'>
                 {allServivces.map((service, index) => (
-                    <div className=' p-3 border border-black bg-[#FFB8A2] shadow-xl rounded-xl h-[300px] w-[400px] sm:h-[300px] sm:w-[300px]' key={index}>
+                    <div className=' p-3 bg-[#FFB8A2] shadow-xl rounded-xl h-[300px] w-[400px] sm:h-[300px] sm:w-[300px]' key={index}>
 
                         <div className=''>
-                            <h1 className=' font-lato text-lg font-bold text-justify'>{service?.name}</h1>
+                            <h1 className='p-2 font-lato text-lg font-bold text-justify'>{service?.name}</h1>
                         </div>
-                        <div><p className="font-merriweather">{service?.desc}</p>  </div>
+                        <div><p className='p-2'>{service?.desc}</p>  </div>
                     </div>
                 ))}
 

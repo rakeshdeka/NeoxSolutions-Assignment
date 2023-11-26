@@ -31,10 +31,10 @@ const Clients = () => {
     return (
 
         <>
-            <div className=' flex flex-wrap flex-col sm:flex-row justify-center gap-3 p-4'>
+            <div className=' flex flex-wrap flex-col sm:flex-row justify-center items-center gap-3 p-4'>
                 {allClients.map((client, index) => (
 
-                    <div className='  h-30 w-30 sm:h-20 sm:w-62 pr-6 pl-6 sm:pr-0 sm:m-0' key={index}>
+                    <div className='  h-18 w-[22rem] sm:h-22 sm:w-[25rem] pr-6 pl-6 sm:pr-0 sm:m-0' key={index}>
                         <img src={client.logo} alt="logo" className='h-full w-full' />
                     </div>
 

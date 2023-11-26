@@ -3,7 +3,7 @@ import React from 'react'
 const ContactUs = () => {
     return (
         <>
-            <section id="contact" className=" min-w-[530px]">
+            <section id="contact" className=" min-w-[574px] pt-20">
                 <h1 className="p-3 text-3xl font-bold text-center text-[#ff5722] font-lato">Contact Us</h1>
                 <div className="max-w-md mx-auto mt-4 mb-3">
                     <form action="#" method="post">

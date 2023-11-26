@@ -10,7 +10,7 @@ const Header = () => {
     }
     return (
         <>
-            <header className="bg-[#ff5722] p-4 text-center fixed w-full z-10 font-lato">
+            <header className="bg-[#ff5722] p-4 text-center fixed w-full z-10 font-lato ">
                 <nav className="flex justify-between  text-white p-2 ">
                     <a href="#home" className="hover:text-gray-300">
                         <div className='text-center text-[black] pt-1.5'>
@@ -21,7 +21,7 @@ const Header = () => {
                     {/* Mobile Menu */}
                     <div className="sm:hidden">
                         <GiHamburgerMenu
-                            className=" text-black cursor-pointer"
+                            className=" text-black cursor-pointer h-6 w-8"
                             onClick={handleMobileMenuToggle}
                         />
                     </div>

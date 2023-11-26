@@ -3,7 +3,7 @@ import React from 'react'
 const AboutUs = () => {
     return (
         <>
-            <section class="min-w-[530px] p-4 font-lato flex  flex-col justify-center items-center">
+            <section id='about' class="min-w-[574px] pt-20 font-lato flex  flex-col justify-center items-center">
                 <h1 className=" font-lato p-3 text-3xl font-bold text-[#ff5722]">About Us</h1>
                 <div className=' w-[80%] sm:w-[95%] sm:flex sm:gap-2'>
 

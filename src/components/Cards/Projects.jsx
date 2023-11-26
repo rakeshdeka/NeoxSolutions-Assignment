@@ -34,7 +34,7 @@ const Projects = () => {
                 {allProjects.map((project, index) => (
                     <div className=' bg-[#FFB8A2] shadow-xl rounded-xl  flex justify-center items-center h-[450px] w-[400px] sm:h-[300px] sm:w-[300px]' key={index}>
                         <div className='w-[90%] h-[90%] flex gap-2 flex-col'>
-                            <div className='object-cover rounded-xl border border-black w-full h-[70%]'>
+                            <div className='object-cover rounded-xl  w-full h-[70%]'>
                                 <img className=' rounded-xl h-full w-full' src={project?.gif} alt="" />
                             </div>
                             <div className='h-[10%] w-full flex gap-2'>
