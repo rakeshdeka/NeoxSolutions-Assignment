@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import Logo from "../assets/Logo2.png"
+// import Logo from "../../public/Logo2.png"
+import Logo from "../../public/Logo1.png"
 import { GiHamburgerMenu } from "react-icons/gi";
 const Header = () => {
     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -12,7 +13,9 @@ const Header = () => {
             <header className="bg-[#ff5722] p-4 text-center fixed w-full z-10 font-lato">
                 <nav className="flex justify-between  text-white p-2 ">
                     <a href="#home" className="hover:text-gray-300">
-                        <p className='text-center text-[black]'> LOGO</p>
+                        <div className='text-center text-[black] pt-1.5'>
+                            <img src={Logo} alt="logo" className=' h-4 w-28' />
+                        </div>
                     </a>
 
                     {/* Mobile Menu */}
