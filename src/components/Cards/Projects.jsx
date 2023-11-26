@@ -1,29 +1,35 @@
 import React from 'react';
 import 'animate.css';
+import calculator from "../../assets/calculator.gif"
+import ecomm from "../../assets/ecomm.gif"
+import todo from "../../assets/todo.gif"
+import chatapp from "../../assets/chatapp.png"
+
 
 const Projects = () => {
     const allProjects = [
-        {
-            name: 'Chat Application',
-            gif: 'https://media.giphy.com/media/tAeB6dptxnoli/giphy.gif',
-            project_link: 'https://github.com/rakeshdeka/mern-chat-app',
-            status: '#complete',
-        },
+
         {
             name: 'Todo Application',
-            gif: 'https://media.giphy.com/media/qWx5C3iSfwa6Q/giphy-downsized-large.gif',
+            gif: todo,
             project_link: 'https://github.com/rakeshdeka/todo-app',
             status: '#ongoing',
         },
         {
+            name: 'Chat Application',
+            gif: chatapp,
+            project_link: 'https://github.com/rakeshdeka/mern-chat-app',
+            status: '#complete',
+        },
+        {
             name: 'Calculator App',
-            gif: 'https://media.giphy.com/media/9vimJbH3osRnq/giphy.gif',
+            gif: calculator,
             project_link: 'https://github.com/rakeshdeka/calculatorApp',
             status: '#complete',
         },
         {
             name: 'Ecommerce Application',
-            gif: 'https://media.giphy.com/media/iIAYEKtLy0yG7TacbC/giphy.gif',
+            gif: ecomm,
             project_link: 'https://github.com/rakeshdeka/EcommerceApp-Frontend',
             status: '#ongoing',
         },
@@ -33,7 +39,7 @@ const Projects = () => {
         <div className='flex flex-wrap justify-center gap-4 font-lato mt-8 '>
             {allProjects.map((project, index) => (
                 <div
-                    className='bg-[#F5F5F5] border border-[#E0E0E0] rounded-xl overflow-hidden shadow-lg w-[300px] sm:w-[300px] md:w-[400px] lg:w-[400px] xl:w-[400px] mb-6'
+                    className='bg-[#F5F5F5] border border-[#E0E0E0] rounded-xl overflow-hidden shadow-lg w-[320px] sm:w-[300px] md:w-[400px] lg:w-[400px] xl:w-[400px] mb-6'
                     key={index}
                 >
                     <img className='w-full h-[200px] object-cover' src={project?.gif} alt='' />
