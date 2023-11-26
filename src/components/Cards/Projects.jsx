@@ -39,7 +39,7 @@ const Projects = () => {
         <div className='flex flex-wrap justify-center gap-4 font-lato mt-8 '>
             {allProjects.map((project, index) => (
                 <div
-                    className='bg-[#F5F5F5] border border-[#E0E0E0] rounded-xl overflow-hidden shadow-lg w-[320px] sm:w-[300px] md:w-[400px] lg:w-[400px] xl:w-[400px] mb-6'
+                    className='bg-[#F5F5F5] border border-[#E0E0E0] rounded-xl overflow-hidden shadow-lg w-[80%] sm:w-1/2 lg:w-1/3 mb-6'
                     key={index}
                 >
                     <img className='w-full h-[200px] object-cover' src={project?.gif} alt='' />
