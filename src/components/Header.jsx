@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Logo from '../../public/Logo1.svg';
+import Logo from '../assets/Logo1.svg';
 import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Header = () => {
@@ -33,7 +33,7 @@ const Header = () => {
                             <a
                                 key={item.id}
                                 href={item.link}
-                                className="hover:bg-gray-300 py-2 px-4 rounded transition duration-300 "
+                                className="hover:bg-[#50271b62] py-2 px-4 rounded transition duration-300 "
                             >
                                 {item.label}
                             </a>

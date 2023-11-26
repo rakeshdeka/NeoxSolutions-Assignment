@@ -1,9 +1,9 @@
 import React from 'react'
-import google from "../../../public/Google-Logo.wine.svg"
-import github from "../../../public/GitHub-Wordmark-Logo.wine.svg"
-import intuit from "../../../public/Intuit-Logo.wine.svg"
-import uber from "../../../public/Uber-Logo.wine.svg"
-import zoho from "../../../public/Zoho_Corporation-Logo.wine.svg"
+import google from "../../assets/Google-Logo.wine.svg"
+import github from "../../assets/GitHub-Wordmark-Logo.wine.svg"
+import intuit from "../../assets/Intuit-Logo.wine.svg"
+import uber from "../../assets/Uber-Logo.wine.svg"
+import zoho from "../../assets/Zoho_Corporation-Logo.wine.svg"
 
 const Clients = () => {
 
